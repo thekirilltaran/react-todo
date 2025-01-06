@@ -1,0 +1,26 @@
+.reset_btn {
+  box-shadow: none;
+  background: none;
+  border: none;
+  color: var(--text-link);
+  text-transform: capitalize;
+  cursor: pointer;
+  padding: 0 4px;
+  font-size: 14px;
+  transition: .2s;
+  width: fit-content;
+  @media only screen and (min-width: 1025px) {
+    &:hover {
+      color: #898989;
+    }
+  }
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  @media only screen and (max-width: 576px) {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,25 @@
+.input {
+  input {
+    background: var(--background-form);
+    width: 100%;
+    border: 1px solid var(--border);
+    height: 64px;
+    border-radius: 5px;
+    padding: 10px 30px 10px 64px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-primary);
+    transition: .2s;
+    @media only screen and (max-width: 767px) {
+      height: 50px;
+      font-size: 14px;
+      padding-left: 50px;
+    }
+    &::placeholder {
+      color: #CECFD5;
+    }
+    &:focus{
+      outline: none;
+    }
+  }
+}

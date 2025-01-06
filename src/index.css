@@ -1,0 +1,55 @@
+@import '~reset-css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box !important;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--background);
+  transition: background .2s;
+}
+
+button {
+  padding: 0;
+}
+
+:root {
+  --background: #fafafa;
+  --background-form: #fafafa;
+  --background-form-hover: #fff;
+  --text-primary: #6c6d77;
+  --text-underline: #cbcccb;
+  --text-secondary: #4e4e4e;
+  --text-link: #adadad;
+  --accent: #dfb017;
+  --accent-hover: #cea315;
+  --border-circle: #939393;
+  --border: #d8d8d8;
+  --shadow: rgba(66, 68, 90, 0.3);
+}
+
+[data-theme='dark'] {
+  --background: #181824;
+  --background-form: #25273d;
+  --background-form-hover: #373a5a;
+  --text-primary: #bebfd9;
+  --text-underline: #505269;
+  --text-secondary: #a7a4a4;
+  --text-link: #787992;
+  --accent: #6a5acd;
+  --accent-hover: #5b4cbe;
+  --border: #696969;
+  --border-circle: #c2c2c2;
+  --shadow: rgb(0 0 0);
+}

@@ -1,0 +1,15 @@
+.banner {
+  width: 100%;
+  height: 32vw;
+  min-height: 230px;
+  max-height: 298px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  &.absolute {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+  }
+}

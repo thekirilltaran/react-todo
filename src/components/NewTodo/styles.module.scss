@@ -1,0 +1,23 @@
+.form {
+  margin-bottom: 22px;
+  position: relative;
+  .circle {
+    display: block;
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    border: 1px solid var(--border-circle);
+    transition: border .2s;
+    flex-shrink: 0;
+    position: absolute;
+    left: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+    @media only screen and (max-width: 767px) {
+      width: 20px;
+      height: 20px;
+      left: 18px;
+    }
+  }
+}
